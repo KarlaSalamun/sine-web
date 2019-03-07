@@ -993,16 +993,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Partners Section
 --------------------------------------------------------------*/
 
+#sponsors,
 #partners {
   padding: 60px 0;
 }
 
+#sponsors .sponsors-wrap,
 #partners .sponsors-wrap {
   border-top: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
 }
 
+#sponsors .sponsor-logo,
 #partners .sponsor-logo {
   padding: 30px;
   display: -webkit-box;
@@ -1021,15 +1024,48 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 200px;
 }
 
-#partners .sponsor-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+#sponsors .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(6, 12, 34, 0.98);
 }
 
+#sponsors .sponsor-logo:hover .overlay {
+  opacity: 0.98;
+}
+
+#sponsors .sponsor-logo .text {
+  color: white;
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#partners .sponsor-logo:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#sponsors img,
 #partners img {
   transition: all 0.4s ease-in-out;
 }
 
+#sponsors .btn,
 #partners .btn {
   font-size: 15px;
   border-radius: 50px;
