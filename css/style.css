@@ -701,8 +701,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule {
   padding: 60px 0 60px 0;
-    
-  background: #fff;
 }
 
 #schedule .nav-tabs {
@@ -934,6 +932,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
+
+/*--------------------------------------------------------------
+# Organisers Section
+--------------------------------------------------------------*/
+
+#organisers {
+  padding: 60px;
+  overflow: hidden;
+}
+
+
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
@@ -1009,7 +1018,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255);
-  height: 160px;
+  height: 200px;
 }
 
 #partners .sponsor-logo:hover img {
@@ -1019,6 +1028,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #partners img {
   transition: all 0.4s ease-in-out;
+}
+
+#partners .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #f82249;
+  border: 0;
+  color: #fff;
+  margin-bottom: 30px;
 }
 
 /*--------------------------------------------------------------
