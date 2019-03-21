@@ -1005,8 +1005,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#sponsors .sponsor-logo,
-#partners .sponsor-logo {
+#sponsors .partner-logo,
+#partners .partner-logo {
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1037,11 +1037,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: rgba(6, 12, 34, 0.98);
 }
 
-#sponsors .sponsor-logo:hover .overlay {
+#sponsors .partner-logo:hover .overlay {
   opacity: 0.98;
 }
 
-#sponsors .sponsor-logo .text {
+#sponsors .partner-logo .text {
   color: white;
   font-size: 28px;
   font-family: "Raleway", sans-serif;
@@ -1055,7 +1055,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#partners .sponsor-logo:hover img {
+#partners .partner-logo:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
