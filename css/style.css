@@ -1007,7 +1007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sponsors .partner-logo,
 #partners .partner-logo {
-  padding: 30px;
+  padding: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1021,7 +1021,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255);
-  height: 200px;
+  height: 120px;
 }
 
 #sponsors .overlay {
