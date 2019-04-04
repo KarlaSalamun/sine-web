@@ -99,6 +99,13 @@ h6 {
   color: #fff;
 }
 
+/* Photos */
+
+.sine-photo {
+  max-width:100%;
+  height: auto;
+}
+
 /* Sections Header
 --------------------------------*/
 
